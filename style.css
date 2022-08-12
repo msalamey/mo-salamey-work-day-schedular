@@ -5,7 +5,7 @@ body {
 }
 
 textarea{
-  background: transparent;
+  background-color: transparent;
   border: none;
   resize: none;
   color: #000000;
@@ -69,3 +69,4 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
