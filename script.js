@@ -48,6 +48,6 @@ function compareHour() {
     });
 };
 
-// call on the function
+// Call on the function
 compareHour();
 
