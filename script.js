@@ -33,7 +33,7 @@ function compareHour() {
     
     $(".input-group-text").each(function () {
         var block = $(this).attr("id");
-        
+
         // Add/remove past/present/future classes based on current hour with if/else statement. 
         if (block < hour) {
             $(this).addClass("past");
@@ -51,6 +51,6 @@ function compareHour() {
     });
 };
 
-// Call on the function
+// Call on the function. 
 compareHour();
 
